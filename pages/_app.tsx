@@ -5,11 +5,10 @@ import type { AppProps } from "next/app";
 import "../styles/globals.css";
 require("@solana/wallet-adapter-react-ui/styles.css");
 // Change the network to the one you want to use: "mainnet-beta", "testnet", "devnet", "localhost" or your own RPC endpoint
-const network: Network = "devnet";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <ThirdwebProvider endpoint={network}>
+    <ThirdwebProvider network={'devnet'}>
       <WalletModalProvider>
         <Component {...pageProps} />
       </WalletModalProvider>
