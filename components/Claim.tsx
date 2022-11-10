@@ -34,7 +34,7 @@ export default function Claim() {
     // Pasting the programAddress variable and the type of contract
     const program = useProgram(programad, "nft-drop");
     // using the useClaimNFT hook here
-    const claim = useClaimNFT(program.data);
+    const { mutateAsync: claim, error } = useClaimNFT(program.data);
     const quantityToClaim = 1;
 
     return (
@@ -56,9 +56,9 @@ export default function Claim() {
             <WalletMultiButton/>
             {wallet.connected ? (
               <button className='walmart'
-              onClick={() => claim.mutate({ amount: 1 })}
+              onClick={() => claim({ amount: quantityToClaim })}
               >
-                {claim.isLoading ? "Claiming..." : "Claim NFT"}
+                Claim NFT
               </button>
              ) : (
               <button className='walmart'>
