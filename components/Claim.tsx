@@ -56,7 +56,7 @@ export default function Claim() {
             <WalletMultiButton/>
             {wallet.connected ? (
               <button className='walmart'
-              onClick={() => claim.mutate(quantityToClaim)}
+              onClick={() => claim.mutate({ amount: 1 })}
               >
                 {claim.isLoading ? "Claiming..." : "Claim NFT"}
               </button>
