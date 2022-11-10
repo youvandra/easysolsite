@@ -1075,9 +1075,9 @@
     "near-seed-phrase" "^0.2.0"
 
 "@coinbase/wallet-sdk@^3.0.8":
-  "integrity" "sha512-kaGMk9KyiSLPm1+BvCQSc99ku9gn0j+M1+2Beii+4gx/lRVhutlzmn6l+5zTB/n3xri25iTr+SxjMZLlMfW8Hg=="
-  "resolved" "https://registry.npmjs.org/@coinbase/wallet-sdk/-/wallet-sdk-3.5.3.tgz"
-  "version" "3.5.3"
+  "integrity" "sha512-+5s05dmB6YUPUnV5vThP96GVG1O4GgS3qYvjYJhe56ds8YFz+keU3/docFBLf8FQOCIO5j7IZtZmVGvz7G+kRw=="
+  "resolved" "https://registry.npmjs.org/@coinbase/wallet-sdk/-/wallet-sdk-3.5.4.tgz"
+  "version" "3.5.4"
   dependencies:
     "@metamask/safe-event-emitter" "2.0.0"
     "@solana/web3.js" "1.52.0"
@@ -2064,10 +2064,10 @@
   "resolved" "https://registry.npmjs.org/@multiformats/base-x/-/base-x-4.0.1.tgz"
   "version" "4.0.1"
 
-"@next/env@12.3.1":
-  "integrity" "sha512-9P9THmRFVKGKt9DYqeC2aKIxm8rlvkK38V1P1sRE7qyoPBIs8l9oo79QoSdPtOWfzkbDAVUqvbQGgTMsb8BtJg=="
-  "resolved" "https://registry.npmjs.org/@next/env/-/env-12.3.1.tgz"
-  "version" "12.3.1"
+"@next/env@12.3.3":
+  "integrity" "sha512-H2pKuOasV9RgvVaWosB2rGSNeQShQpiDaF4EEjLyagIc3HwqdOw2/VAG/8Lq+adOwPv2P73O1hulTNad3k5MDw=="
+  "resolved" "https://registry.npmjs.org/@next/env/-/env-12.3.3.tgz"
+  "version" "12.3.3"
 
 "@next/eslint-plugin-next@12.3.1":
   "integrity" "sha512-sw+lTf6r6P0j+g/n9y4qdWWI2syPqZx+uc0+B/fRENqfR3KpSid6MIKqc9gNwGhJASazEQ5b3w8h4cAET213jw=="
@@ -2076,10 +2076,10 @@
   dependencies:
     "glob" "7.1.7"
 
-"@next/swc-win32-x64-msvc@12.3.1":
-  "integrity" "sha512-W1ijvzzg+kPEX6LAc+50EYYSEo0FVu7dmTE+t+DM4iOLqgGHoW9uYSz9wCVdkXOEEMP9xhXfGpcSxsfDucyPkA=="
-  "resolved" "https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-12.3.1.tgz"
-  "version" "12.3.1"
+"@next/swc-win32-x64-msvc@12.3.3":
+  "integrity" "sha512-Ku9mfGwmNtk44o4B/jEWUxBAT4tJ3S7QbBMLJdL1GmtRZ05LGL36OqWjLvBPr8dFiHOQQbYoAmYfQw7zeGypYA=="
+  "resolved" "https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-12.3.3.tgz"
+  "version" "12.3.3"
 
 "@ngraveio/bc-ur@^1.0.0", "@ngraveio/bc-ur@^1.1.5":
   "integrity" "sha512-G+2XgjXde2IOcEQeCwR250aS43/Swi7gw0FuETgJy2c3HqF8f88SXDMsIGgJlZ8jXd0GeHR4aX0MfjXf523UZg=="
@@ -3080,17 +3080,17 @@
   dependencies:
     "tslib" "^2.4.0"
 
-"@tanstack/query-core@4.6.1":
-  "integrity" "sha512-r5PXj0EG3z/5Rhb4gttPo/EOqfGhx4wSWJncI8WA4rwe2E2stpeZKnEEsQU7rEqReVCOYseswTYn+lwRF2Ap3Q=="
-  "resolved" "https://registry.npmjs.org/@tanstack/query-core/-/query-core-4.6.1.tgz"
-  "version" "4.6.1"
+"@tanstack/query-core@4.14.5":
+  "integrity" "sha512-Su1AyrPb6xnm7wXTvpN5tt+B7LViYSh9k04vvuc6+eMVH0HkE9ktZTXibRrTvV83BI1KP5MG7v/k90ne/4zQzw=="
+  "resolved" "https://registry.npmjs.org/@tanstack/query-core/-/query-core-4.14.5.tgz"
+  "version" "4.14.5"
 
 "@tanstack/react-query@^4.0.10":
-  "integrity" "sha512-fDLIqLq4KLv0PmLHOGXp2ppJdydF/8YoYQrePTODK3RsiZDQVPLLAojz7M3v7GK5VionIb4KgiK3qBoAiN3Y4A=="
-  "resolved" "https://registry.npmjs.org/@tanstack/react-query/-/react-query-4.6.1.tgz"
-  "version" "4.6.1"
+  "integrity" "sha512-CuWl/SxSB0zHhHaTja8LNhy9Vdk+vk9IkW3Oiq3lo4gPnTguHmbUzfjEA1x3RfvPeHfPMuq/pYMSbV+CX4aDQA=="
+  "resolved" "https://registry.npmjs.org/@tanstack/react-query/-/react-query-4.14.5.tgz"
+  "version" "4.14.5"
   dependencies:
-    "@tanstack/query-core" "4.6.1"
+    "@tanstack/query-core" "4.14.5"
     "use-sync-external-store" "^1.2.0"
 
 "@thirdweb-dev/contracts-js@^1.1.9":
@@ -8566,31 +8566,31 @@
   "resolved" "https://registry.npmjs.org/next-tick/-/next-tick-1.1.0.tgz"
   "version" "1.1.0"
 
-"next@^12.3.1":
-  "integrity" "sha512-l7bvmSeIwX5lp07WtIiP9u2ytZMv7jIeB8iacR28PuUEFG5j0HGAPnMqyG5kbZNBG2H7tRsrQ4HCjuMOPnANZw=="
-  "resolved" "https://registry.npmjs.org/next/-/next-12.3.1.tgz"
-  "version" "12.3.1"
+"next@^12.3.3":
+  "integrity" "sha512-Rx2Y6Wl5R8E77NOfBupp/B9OPCklqfqD0yN2+rDivhMjd6hjVFH5n0WTDI4PWwDmZsdNcYt6NV85kJ3PLR+eNQ=="
+  "resolved" "https://registry.npmjs.org/next/-/next-12.3.3.tgz"
+  "version" "12.3.3"
   dependencies:
-    "@next/env" "12.3.1"
+    "@next/env" "12.3.3"
     "@swc/helpers" "0.4.11"
     "caniuse-lite" "^1.0.30001406"
     "postcss" "8.4.14"
     "styled-jsx" "5.0.7"
     "use-sync-external-store" "1.2.0"
   optionalDependencies:
-    "@next/swc-android-arm-eabi" "12.3.1"
-    "@next/swc-android-arm64" "12.3.1"
-    "@next/swc-darwin-arm64" "12.3.1"
-    "@next/swc-darwin-x64" "12.3.1"
-    "@next/swc-freebsd-x64" "12.3.1"
-    "@next/swc-linux-arm-gnueabihf" "12.3.1"
-    "@next/swc-linux-arm64-gnu" "12.3.1"
-    "@next/swc-linux-arm64-musl" "12.3.1"
-    "@next/swc-linux-x64-gnu" "12.3.1"
-    "@next/swc-linux-x64-musl" "12.3.1"
-    "@next/swc-win32-arm64-msvc" "12.3.1"
-    "@next/swc-win32-ia32-msvc" "12.3.1"
-    "@next/swc-win32-x64-msvc" "12.3.1"
+    "@next/swc-android-arm-eabi" "12.3.3"
+    "@next/swc-android-arm64" "12.3.3"
+    "@next/swc-darwin-arm64" "12.3.3"
+    "@next/swc-darwin-x64" "12.3.3"
+    "@next/swc-freebsd-x64" "12.3.3"
+    "@next/swc-linux-arm-gnueabihf" "12.3.3"
+    "@next/swc-linux-arm64-gnu" "12.3.3"
+    "@next/swc-linux-arm64-musl" "12.3.3"
+    "@next/swc-linux-x64-gnu" "12.3.3"
+    "@next/swc-linux-x64-musl" "12.3.3"
+    "@next/swc-win32-arm64-msvc" "12.3.3"
+    "@next/swc-win32-ia32-msvc" "12.3.3"
+    "@next/swc-win32-x64-msvc" "12.3.3"
 
 "nice-try@^1.0.4":
   "integrity" "sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ=="
@@ -9201,9 +9201,9 @@
     "source-map-js" "^1.0.2"
 
 "preact@^10.5.9":
-  "integrity" "sha512-Fk6+vB2kb6mSJfDgODq0YDhMfl0HNtK5+Uc9QqECO4nlyPAQwCI+BKyWO//idA7ikV7o+0Fm6LQmNuQi1wXI1w=="
-  "resolved" "https://registry.npmjs.org/preact/-/preact-10.11.0.tgz"
-  "version" "10.11.0"
+  "integrity" "sha512-skAwGDFmgxhq1DCBHke/9e12ewkhc7WYwjuhHB8HHS8zkdtITXLRmUMTeol2ldxvLwYtwbFeifZ9uDDWuyL4Iw=="
+  "resolved" "https://registry.npmjs.org/preact/-/preact-10.11.2.tgz"
+  "version" "10.11.2"
 
 "preact@10.4.1":
   "integrity" "sha512-WKrRpCSwL2t3tpOOGhf2WfTpcmbpxaWtDbdJdKdjd0aEiTkvOmS4NBkG6kzlaAHI9AkQ3iVqbFWM3Ei7mZ4o1Q=="
