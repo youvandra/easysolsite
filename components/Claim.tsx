@@ -1,6 +1,6 @@
 import { useWallet } from "@solana/wallet-adapter-react";
 import { useProgram,useClaimNFT } from "@thirdweb-dev/react/solana";
-import React, { useState }  from "react";
+import { useState }  from "react";
 import { useRouter } from 'next/router'
 import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 export default function Claim() {
